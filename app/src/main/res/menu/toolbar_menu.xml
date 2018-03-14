@@ -5,6 +5,13 @@
     <item
         android:id="@+id/menu_sample_window"
         android:title="@string/menu_title_sample_window"
-        app:showAsAction="ifRoom"
+        app:showAsAction="never"
         />
+
+    <item
+        android:id="@+id/menu_value_animator"
+        android:title="@string/value_animator"
+        app:showAsAction="never"
+        />
+
 </menu>

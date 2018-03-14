@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AndroidAnimations</string>
     <string name="menu_title_sample_window">Sample Window</string>
+    <string name="value_animator">Value Animator</string>
 </resources>

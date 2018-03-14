@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.ninthsemester.androidanimations.valueAnimator.ValueAnimatorActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,18 +30,19 @@ class MainActivity : AppCompatActivity() {
             R.id.menu_sample_window -> {
                 Toast.makeText(this, "Clicked Sample Window", Toast.LENGTH_SHORT).show()
                 openWindow(SampleAnimActivity::class.java)
-                true
             }
 
+            R.id.menu_value_animator -> openWindow(ValueAnimatorActivity::class.java)
             else -> super.onOptionsItemSelected(item)
         }
     }
 
 
-    private fun <T : AppCompatActivity>openWindow(classType : Class<T>) {
+    private fun <T : AppCompatActivity>openWindow(classType : Class<T>) : Boolean{
 
         val intent = Intent(this, classType)
         startActivity(intent)
 
+        return true
     }
 }
