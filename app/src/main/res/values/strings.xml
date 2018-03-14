@@ -2,4 +2,6 @@
     <string name="app_name">AndroidAnimations</string>
     <string name="menu_title_sample_window">Sample Window</string>
     <string name="value_animator">Value Animator</string>
+    <string name="object_animator">Object Animator</string>
+    <string name="bouncing_balls">Bouncing Balls</string>
 </resources>

@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.ninthsemester.androidanimations.objectAnimator.ObjectAnimatorActivity
+import com.ninthsemester.androidanimations.valueAnimator.BouncingBallsActivity
 import com.ninthsemester.androidanimations.valueAnimator.ValueAnimatorActivity
 
 class MainActivity : AppCompatActivity() {
@@ -27,12 +29,10 @@ class MainActivity : AppCompatActivity() {
 
         return when(item.itemId) {
 
-            R.id.menu_sample_window -> {
-                Toast.makeText(this, "Clicked Sample Window", Toast.LENGTH_SHORT).show()
-                openWindow(SampleAnimActivity::class.java)
-            }
-
+            R.id.menu_bouncing_balls -> openWindow(BouncingBallsActivity::class.java)
             R.id.menu_value_animator -> openWindow(ValueAnimatorActivity::class.java)
+            R.id.menu_object_animator -> openWindow(ObjectAnimatorActivity::class.java)
+
             else -> super.onOptionsItemSelected(item)
         }
     }

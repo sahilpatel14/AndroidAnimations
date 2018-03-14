@@ -12,12 +12,14 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".SampleAnimActivity" />
-        <activity android:name=".valueAnimator.ValueAnimatorActivity"></activity>
+        <activity android:name=".valueAnimator.ValueAnimatorActivity" />
+        <activity android:name=".objectAnimator.ObjectAnimatorActivity" />
+        <activity android:name=".valueAnimator.BouncingBallsActivity"/>
+
     </application>
 
 </manifest>
