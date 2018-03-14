@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidAnimations</string>
+    <string name="menu_title_sample_window">Sample Window</string>
 </resources>
