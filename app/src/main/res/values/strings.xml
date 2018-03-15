@@ -10,5 +10,6 @@ Morbi et lorem turpis. Nunc id sagittis ipsum, id pharetra arcu. Integer ante le
     </string>
     <string name="crossfade">CrossFade</string>
     <string name="card_flip">Card Flip</string>
+    <string name="circular_reveal">Circular Reveal</string>
 
 </resources>

@@ -17,8 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".SampleAnimActivity" />
-        <activity android:name=".crossfadeAnimation.CrossFadeAnimationActivity"></activity>
-        <activity android:name=".cardFlipAnimation.CardFlipAnimationActivity"></activity>
+        <activity android:name=".crossfadeAnimation.CrossFadeAnimationActivity" />
+        <activity android:name=".cardFlipAnimation.CardFlipAnimationActivity">
+
+        </activity>
+        <activity android:name=".circularRevealAnimation.CircularRevealActivity"></activity>
     </application>
 
 </manifest>

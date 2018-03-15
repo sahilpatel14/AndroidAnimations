@@ -7,6 +7,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import com.ninthsemester.androidanimations.cardFlipAnimation.CardFlipAnimationActivity
+import com.ninthsemester.androidanimations.circularRevealAnimation.CircularRevealActivity
 import com.ninthsemester.androidanimations.crossfadeAnimation.CrossFadeAnimationActivity
 
 class MainActivity : AppCompatActivity() {
@@ -30,10 +31,11 @@ class MainActivity : AppCompatActivity() {
 
             R.id.menu_sample_window -> {
                 Toast.makeText(this, "Clicked Sample Window", Toast.LENGTH_SHORT).show()
-                openWindow(SampleAnimActivity::class.java) }
+                openWindow(SampleAnimActivity::class.java)
+            }
             R.id.menu_cross_fade -> openWindow(CrossFadeAnimationActivity::class.java)
             R.id.menu_card_flip -> openWindow(CardFlipAnimationActivity::class.java)
-
+            R.id.menu_circular_reveal -> openWindow(CircularRevealActivity::class.java)
 
             else -> super.onOptionsItemSelected(item)
         }
