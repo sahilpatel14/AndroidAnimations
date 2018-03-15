@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.ninthsemester.androidanimations.usingObjectAnimator.UsingObjectAnimatorActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,9 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         return when(item.itemId) {
 
-            R.id.menu_sample_window -> {
-                Toast.makeText(this, "Clicked Sample Window", Toast.LENGTH_SHORT).show()
-                openWindow(SampleAnimActivity::class.java) }
+            R.id.menu_object_mapper -> openWindow(UsingObjectAnimatorActivity::class.java)
 
             else -> super.onOptionsItemSelected(item)
         }
