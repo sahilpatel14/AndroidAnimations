@@ -9,6 +9,8 @@ import android.widget.Toast
 import com.ninthsemester.androidanimations.objectAnimator.ObjectAnimatorActivity
 import com.ninthsemester.androidanimations.valueAnimator.BouncingBallsActivity
 import com.ninthsemester.androidanimations.valueAnimator.ValueAnimatorActivity
+import com.ninthsemester.androidanimations.viewGroupsLayoutChanges.LayoutAnimationDefaultActivity
+import com.ninthsemester.androidanimations.viewGroupsLayoutChanges.LayoutAnimationHideShowActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +34,8 @@ class MainActivity : AppCompatActivity() {
             R.id.menu_bouncing_balls -> openWindow(BouncingBallsActivity::class.java)
             R.id.menu_value_animator -> openWindow(ValueAnimatorActivity::class.java)
             R.id.menu_object_animator -> openWindow(ObjectAnimatorActivity::class.java)
+            R.id.menu_custom_layout_animator -> openWindow(LayoutAnimationDefaultActivity::class.java)
+            R.id.menu_default_layout_animator -> openWindow(LayoutAnimationHideShowActivity::class.java)
 
             else -> super.onOptionsItemSelected(item)
         }

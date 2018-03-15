@@ -18,8 +18,13 @@
         <activity android:name=".SampleAnimActivity" />
         <activity android:name=".valueAnimator.ValueAnimatorActivity" />
         <activity android:name=".objectAnimator.ObjectAnimatorActivity" />
-        <activity android:name=".valueAnimator.BouncingBallsActivity"/>
+        <activity android:name=".valueAnimator.BouncingBallsActivity" />
+        <activity android:name=".viewGroupsLayoutChanges.LayoutAnimationDefaultActivity">
 
+        </activity>
+        <activity android:name=".viewGroupsLayoutChanges.LayoutAnimationHideShowActivity">
+
+        </activity>
     </application>
 
 </manifest>

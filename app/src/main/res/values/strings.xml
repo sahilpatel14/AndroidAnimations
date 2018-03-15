@@ -4,4 +4,5 @@
     <string name="value_animator">Value Animator</string>
     <string name="object_animator">Object Animator</string>
     <string name="bouncing_balls">Bouncing Balls</string>
+    <string name="show_buttons">Show Buttons</string>
 </resources>
