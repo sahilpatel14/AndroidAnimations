@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">AndroidAnimations</string>
     <string name="menu_title_sample_window">Sample Window</string>
+
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut consequat purus. Mauris pharetra consequat lectus in fringilla. Duis rutrum nunc risus, in suscipit dui ullamcorper at. Nulla risus lacus, euismod sed scelerisque et, tristique pharetra justo. Ut consectetur augue quis mollis rhoncus. Curabitur scelerisque hendrerit urna, id vulputate dui maximus at. Integer elementum imperdiet turpis, nec suscipit ante commodo ut. Sed at magna pharetra, malesuada tortor non, fermentum dui. Praesent condimentum ligula sit amet velit luctus gravida. Nulla nec mattis lorem. Nam viverra nisi eu tortor consequat, sed bibendum augue suscipit. Praesent nec efficitur lorem.
+
+Morbi et lorem turpis. Nunc id sagittis ipsum, id pharetra arcu. Integer ante leo, aliquet convallis diam et, rhoncus pulvinar arcu. Nunc quis tortor vitae ante malesuada luctus. Curabitur auctor neque ut tortor cursus eleifend. Praesent nec accumsan sapien, eu facilisis mauris. Duis nibh elit, fringilla ac vulputate et, volutpat at eros. Donec in libero dolor. Vestibulum quis massa ligula. Cras porta, quam nec volutpat ultrices, massa augue porta ipsum, et cursus sem magna nec felis. Etiam luctus nulla quis risus pretium imperdiet. Quisque maximus, orci sed mattis mattis, ligula augue eleifend nibh, quis blandit eros felis convallis diam. Duis sem nisi, mollis sed arcu nec, pretium vehicula leo. Duis vehicula eu tortor at lacinia. Nam tempus lectus at condimentum pellentesque.
+    </string>
+    <string name="crossfade">CrossFade</string>
+    <string name="card_flip">Card Flip</string>
+
 </resources>

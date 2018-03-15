@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SampleAnimActivity"></activity>
+        <activity android:name=".SampleAnimActivity" />
+        <activity android:name=".crossfadeAnimation.CrossFadeAnimationActivity"></activity>
+        <activity android:name=".cardFlipAnimation.CardFlipAnimationActivity"></activity>
     </application>
 
 </manifest>
