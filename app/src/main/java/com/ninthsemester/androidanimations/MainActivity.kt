@@ -29,10 +29,7 @@ class MainActivity : AppCompatActivity() {
 
         return when(item.itemId) {
 
-            R.id.menu_sample_window -> {
-                Toast.makeText(this, "Clicked Sample Window", Toast.LENGTH_SHORT).show()
-                openWindow(SampleAnimActivity::class.java)
-            }
+
             R.id.menu_cross_fade -> openWindow(CrossFadeAnimationActivity::class.java)
             R.id.menu_card_flip -> openWindow(CardFlipAnimationActivity::class.java)
             R.id.menu_circular_reveal -> openWindow(CircularRevealActivity::class.java)

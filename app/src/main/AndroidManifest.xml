@@ -12,16 +12,14 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".SampleAnimActivity" />
         <activity android:name=".crossfadeAnimation.CrossFadeAnimationActivity" />
-        <activity android:name=".cardFlipAnimation.CardFlipAnimationActivity">
+        <activity android:name=".cardFlipAnimation.CardFlipAnimationActivity"/>
+        <activity android:name=".circularRevealAnimation.CircularRevealActivity"/>
 
-        </activity>
-        <activity android:name=".circularRevealAnimation.CircularRevealActivity"></activity>
     </application>
 
 </manifest>
