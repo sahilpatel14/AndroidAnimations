@@ -12,12 +12,13 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".SampleAnimActivity" />
-        <activity android:name=".usingObjectAnimator.UsingObjectAnimatorActivity">
-
+        <activity android:name=".usingObjectAnimator.UsingObjectAnimatorActivity"/>
+        <activity android:name=".curvedMotion.CurvedMotionActivity">
         </activity>
     </application>
 

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import com.ninthsemester.androidanimations.curvedMotion.CurvedMotionActivity
 import com.ninthsemester.androidanimations.usingObjectAnimator.UsingObjectAnimatorActivity
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         return when(item.itemId) {
 
             R.id.menu_object_mapper -> openWindow(UsingObjectAnimatorActivity::class.java)
+            R.id.menu_curved_motion -> openWindow(CurvedMotionActivity::class.java)
+
 
             else -> super.onOptionsItemSelected(item)
         }

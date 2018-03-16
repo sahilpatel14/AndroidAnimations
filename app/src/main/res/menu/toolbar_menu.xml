@@ -8,5 +8,9 @@
         app:showAsAction="never"
         />
 
+    <item android:id="@+id/menu_curved_motion"
+        android:title="@string/curved_motion"
+        app:showAsAction="never"
+        />
 
 </menu>

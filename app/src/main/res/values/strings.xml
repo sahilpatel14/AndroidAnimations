@@ -3,4 +3,5 @@
     <string name="menu_title_sample_window">Sample Window</string>
     <string name="type_here_hint">Enter your name</string>
     <string name="using_object_mapper">Using Object Mapper</string>
+    <string name="curved_motion">Curved Motion</string>
 </resources>
