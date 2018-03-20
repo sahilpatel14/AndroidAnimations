@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_sample_window"
-        android:title="@string/menu_title_sample_window"
-        app:showAsAction="ifRoom"
+        android:id="@+id/menu_fling_window"
+        android:title="@string/fling_animation"
+        app:showAsAction="never"
         />
 </menu>
